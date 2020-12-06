@@ -1,0 +1,19 @@
+{
+    "name": "malta-parcel",
+    "version": "0.0.1",
+    "description": "malta plugin to use quickly parcel bundler",
+    "main": "index.js",
+    "keywords": [
+        "malta",
+        "malta parcel"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://fedeghe@github.com/fedeghe/malta-parcel.git"
+    },
+    "bugs": {
+        "url": "https://github.com/fedeghe/malta-parcel/issues"
+    },
+    "author": "fedeghe <fedeghe@gmail.com>",
+    "license": "MIT"
+}
