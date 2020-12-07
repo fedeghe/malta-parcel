@@ -24,7 +24,7 @@ function malta_parcel(o, options) {
                 pre = 're'; 
             }
             startParcel(opts);
-            msg = `plugin ${pluginName.white()} ${pre}started from ${o.name} on http://localhost:${port}`;
+            msg = `plugin ${pluginName.white()} ${pre}started from ${o.name} on ${("http://localhost:"+port).blue()}`;
 
             ls.on('exit', code => {
                 msg = 'plugin ' + pluginName.white() + ' done';
